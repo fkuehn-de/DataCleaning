@@ -1,6 +1,6 @@
 The run_analysis.R script performs the data preparation and then the 5 steps required as described in the course project’s definition.
 
-**1. Download the dataset: **
+**1. Download the dataset:**
 
 Dataset is downloaded and extracted in a folder called "UCI HAR Dataset"
 
@@ -30,7 +30,7 @@ contains recorded features train data
 *h)* trainY <- test/y_train.txt : 7352 rows, 1 columns
 contains train data of activities' code labels
 
-**3. Tidy up the data from the test data set. **
+**3. Tidy up the data from the test data set.**
 
 *a)* Create a second column in testY with the activity name (read from the second column of "actitives").
 
